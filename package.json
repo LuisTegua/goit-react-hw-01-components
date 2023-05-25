@@ -1,8 +1,8 @@
 {
   "name": "goit-react-hw-01-components",
   "version": "0.1.0",
-  "private": false,
-  "homepage": "https://github.com/LuisTegua/goit-react-hw-01-components/",
+  "private": true,
+  "homepage": "https://LuisTegua.github.io/goit-react-hw-01-components/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
