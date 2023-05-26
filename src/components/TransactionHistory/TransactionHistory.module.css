@@ -1,0 +1,23 @@
+th {
+  width: 33%;
+  background: #01bcd4;
+  color: #fff;
+}
+td,
+th {
+  padding:15px 0;
+}
+.item_border {
+  border: 2px solid #e1e6e9;
+  border-top: none;
+  border-bottom: none;
+}
+.transaction_history {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+  border-collapse: collapse;
+}
+.item_background{
+  background: #EBEFF0;
+}

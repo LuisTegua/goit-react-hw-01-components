@@ -2,11 +2,11 @@ import style from "./FriendList.module.css";
 
 export const FriendList = ({ data }) => {
   return (
-    <section>
+    <section className={style.FriendList}>
       <ul className={style.friend_list}>
         {data.map(info => (
-          <li className={style.item}>
-            <span className={info.isOnline == true ? "isOnline" : "outOnline"}></span>
+          <li className={style.item} key={info.id}>
+            <span className={info.isOnline == true ? style.isOnline : style.outOnline}></span>
             <img className={style.img} src={info.avatar} />
             <p className={style.name}>{info.name}</p>
           </li>
