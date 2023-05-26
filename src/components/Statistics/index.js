@@ -1,10 +1,10 @@
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import style from "./Statistics.module.css"
 
 export const Statistics = ({ data, title }) => {
   return (
     <section className={style.statistics}>
-      {title != undefined && 
+      {title !== undefined && 
         (<h2 className={style.title}>{title}</h2>)}
       <ul className={style.stat_list}>
         {data.map(info => (

@@ -6,8 +6,8 @@ export const FriendList = ({ data }) => {
       <ul className={style.friend_list}>
         {data.map(info => (
           <li className={style.item} key={info.id}>
-            <span className={info.isOnline == true ? style.isOnline : style.outOnline}></span>
-            <img className={style.img} src={info.avatar} />
+            <span className={info.isOnline === true ? style.isOnline : style.outOnline}></span>
+            <img className={style.img} src={info.avatar} alt={info.name} />
             <p className={style.name}>{info.name}</p>
           </li>
         ))}
