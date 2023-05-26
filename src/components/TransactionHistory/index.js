@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import style from "./TransactionHistory.module.css";
 
 export const TransactionHistory = ({ data }) => {
@@ -23,4 +24,8 @@ export const TransactionHistory = ({ data }) => {
       </table>
     </section>
   );
+}
+
+TransactionHistory.propTypes = {
+  data: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.string)),
 }
